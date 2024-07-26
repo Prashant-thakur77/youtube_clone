@@ -8,19 +8,123 @@
 }
 .left-section{
     background-color: lightblue;
-    width: 170px;
+    
+    display: flex;
+    align-items: center;
 
 }
+.hamburger-menu{
+
+    height: 23px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.youtube-logo{
+    height: 20px;
+}
 .middle-section{
-    background-color: lightpink;
+    
     flex:1;
     margin-left: 70px;
-    margin-right: 35px;
+    margin-right: 15px;
     max-width: 500px;
+    display: flex;
+    align-items: center;
     
 }
+.search-bar{
+    flex:1;
+    height: 35px;
+    border-style: solid;
+    border-color: rgb(213, 212, 212);
+    border-radius: 2px;
+    font-size: 16px;
+    box-shadow:inset 1px 1px 3px rgba(0,0,0,0.05) ;
+    border-width: 1p;
+    width: 0;
+}
+.search-bar::placeholder{
+    font-family: Roboto,Arial;
+    padding-left: 10px;
+    color: rgb(137, 135, 135);
+}
+
+.search-button{
+    height: 40px;
+    width: 60px;
+    margin-left: -1px;
+    border-width: 1px;
+    background-color: rgb(246, 244, 244);
+    border-style: solid;
+    border-color: rgb(213, 212, 212);
+    margin-right: 8px;
+}
+.search-icon{
+    height: 25px;
+    margin-top: 3px;
+
+}
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    background-color:rgba(244, 240, 240, 0.467);
+    border-radius: 20px;
+    border: none;
+}
+.voice-icon{
+    height: 25px;
+    margin-top: 3px;
+}
 .right-section{
-    background-color: lightblue;
+    
     width: 250px;
+    margin-right: 22px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    
+}
+.create-button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: white;
+}
+.create-icon{
+    padding-top: 5px;
+    height: 24px;
+}
+.youtube-app-button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: white;
+}
+.youtube-app-icon{
+    padding-top: 5px;
+    height: 24px;
+}
+.notification-button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: white;
+}
+.notification-icon{
+    padding-top: 5px;
+    height: 24px;
+}
+.account-button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+}
+.account-icon{
+    padding-top: 4px;
+    height: 35px;
     
 }
