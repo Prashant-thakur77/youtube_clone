@@ -38,6 +38,7 @@
     max-width: 500px;
     display: flex;
     align-items: center;
+    min-width: 80px;
     
     
 }
@@ -51,6 +52,7 @@
     box-shadow:inset 1px 1px 3px rgba(0,0,0,0.05) ;
     border-width: 1p;
     width: 0;
+    
 
 }
 .search-bar::placeholder{
