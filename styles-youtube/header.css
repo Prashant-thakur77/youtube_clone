@@ -16,7 +16,7 @@
 
 }
 .left-section{
-    background-color: lightblue;
+    
     
     display: flex;
     align-items: center;
@@ -73,6 +73,59 @@
     margin-right: 8px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    position: relative;
+}
+.search-button,
+.voice-search-button,
+.create-icon-container,
+.youtube-apps-container,
+.notification-button{
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.create-icon-container .tooltip,
+.youtube-apps-container .tooltip,
+.notification-button .tooltip{
+    position: absolute;
+    background-color: gray;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+    bottom: -38px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+
+}
+.search-button .tooltip,
+.voice-search-button .tooltip
+{
+    position: absolute;
+    background-color: gray;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+
+}
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.create-icon-container:hover .tooltip,
+.youtube-apps-container:hover .tooltip,
+.notification-button:hover .tooltip{
+    opacity: 1;
 }
 .search-icon{
     height: 25px;
@@ -88,7 +141,7 @@
 }
 .voice-icon{
     height: 25px;
-    margin-top: 3px;
+    
 }
 .right-section{
     
@@ -104,26 +157,27 @@
 }
 
 .create-icon{
-    flex: 1;
-    padding-top: 5px;
     height: 24px;
 }
 
 .youtube-app-icon{
-    flex:1;
-    padding-top: 5px;
+    
+    
+
+    
     height: 24px;
 }
 
 
 .notification-icon{
     
-    padding-top: 10px;
+    
+    
     height: 24px;
-    margin-right: 15px;
-    margin-left: 13px;
+    
 }
 .notification-button{
+    
     position: relative;
 }
 .notification-count-icon{
@@ -132,14 +186,15 @@
     font-style: Roboto,Arial;
     font-weight: 700;
     background-color: rgb(180, 6, 6);
-    left: 27px;
+    left: 12px;
     
     
-    bottom: 15px;
+    bottom: 9px;
+    
    
     border-color: white;
     
-   border-width: 4px;
+   border-width: 1px;
    border-radius: 20px;
     
     border-color:black;
@@ -153,9 +208,9 @@
 
 .account-icon{
     
-    padding-top: 4px;
+    margin-right: 8px;
     
-    height: 35px;
+    height: 34px;
     border-radius: 80px;
     
     

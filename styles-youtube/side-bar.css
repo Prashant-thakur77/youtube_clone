@@ -5,7 +5,36 @@
     bottom: 0;
     background-color: white;
     width: 72px;
+    z-index: 200;
 
     
 
 }
+.sidebar-link{
+    margin-top: 3px;
+    
+    height: 72px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sidebar-link:hover{
+    background-color: rgba(160, 158, 158, 0.216);
+    cursor: pointer;
+
+}
+.sidebar-link img{
+    height: 23px;
+    margin-bottom: 6px;
+    
+}
+.sidebar-link div{
+    font-style: Roboto,Arial;
+    font-size: 11px;
+    
+}
+
